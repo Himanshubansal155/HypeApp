@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainmenu"
+        android:title="@string/mainmenu"
+        android:showAsAction="ifRoom|withText"></item>
+    <item
+        android:id="@+id/camera"
+        android:title="@string/camera"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/phonecall"
+        android:title="@string/phonecall"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/sms"
+        android:title="@string/sms"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/youtube"
+        android:title="@string/youtube"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/musicplayer"
+        android:title="@string/musicplayer"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/videoplayer"
+        android:title="@string/videoplayer"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/calculator"
+        android:title="@string/calculator"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/quiz"
+        android:title="@string/quiz"
+        android:showAsAction="ifRoom|withText"></item>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:showAsAction="ifRoom|withText"
+        />
+
+</menu>

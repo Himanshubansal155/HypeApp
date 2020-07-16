@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rc.myapplication.Second"
+    android:background="@drawable/third">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:-"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textColor="#b9b7b7"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_x="20dp"
+        android:layout_y="54dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="username"
+        android:layout_above="@+id/editText4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="40dp"
+        android:layout_y="84dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:-"
+        android:id="@+id/textView12"
+        android:textSize="20dp"
+        android:textColor="#b9b7b7"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_x="20dp"
+        android:layout_y="134dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:layout_above="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="40dp"
+        android:layout_y="164dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone no.:-"
+        android:id="@+id/textView13"
+        android:textSize="20dp"
+        android:textColor="#b9b7b7"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_x="20dp"
+        android:layout_y="214dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:inputType="phone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Phone"
+        android:layout_x="40dp"
+        android:layout_y="244dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="City:-"
+        android:id="@+id/textView14"
+        android:textSize="20dp"
+        android:textColor="#b9b7b7"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_x="20dp"
+        android:layout_y="294dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="city"
+        android:layout_x="40dp"
+        android:layout_y="324dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:-"
+        android:id="@+id/textView15"
+        android:textSize="20dp"
+        android:textColor="#b9b7b7"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_x="20dp"
+        android:layout_y="374dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Password"
+        android:layout_x="40dp"
+        android:layout_y="404dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Create account "
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="120dp"
+        android:layout_y="474dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#d7af9e"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a member?"
+        android:id="@+id/textView16"
+        android:textSize="15dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_x="120dp"
+        android:layout_y="563dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="230dp"
+        android:layout_y="549dp"
+        android:text="LOgin"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
